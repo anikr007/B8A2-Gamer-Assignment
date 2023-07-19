@@ -121,7 +121,7 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.para{
+.para {
     margin-top: 24px;
     margin-bottom: 41px;
 }
@@ -131,9 +131,11 @@ nav {
     font-size: 20px;
     font-weight: 500;
 }
-.banner-input{
+
+.banner-input {
     display: flex;
 }
+
 .banner-button1 {
     display: inline-flex;
     padding: 21px 40px;
@@ -162,8 +164,77 @@ nav {
 }
 
 
+/* this is we are gamer section */
+.we-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
+}
 
+.we-img {
+    padding-left: 240px;
+}
+
+.we-text-container {
+    text-align: end;
+    padding-right: 240px;
+}
+
+.we-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.we-dis {
+    width: 520px;
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 52px;
+}
+
+.we-button {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pusose-title {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.unleash-title {
+    color: #534C64;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
 
 
 
@@ -191,9 +262,11 @@ nav {
     nav,
     .menu,
     .menu-container,
-    .main-section {
+    .main-section,
+    .banner-header {
         flex-direction: column;
         text-align: center;
+        width: 100%;
 
     }
 
@@ -203,6 +276,17 @@ nav {
 
     .menu-container {
         gap: 32px;
+    }
+
+    .banner-header {
+        flex-direction: column-reverse;
+        margin-top: 78px;
+        text-align: left;
+        margin: 9.375rem;
+    }
+
+    .text-container {
+        margin-top: 35px;
     }
 }
 
