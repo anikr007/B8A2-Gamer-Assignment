@@ -39,7 +39,8 @@ nav {
 .logo-name2 {
     color: #FF42A5;
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
 }
@@ -72,29 +73,98 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* text-decoration: none; */
     list-style: none;
-    /* justify-content: space-around; */
-    padding: 17px, 24.08px, 18px,24px;
+    padding: 17px, 24.08px, 18px, 24px;
     gap: 20px;
 }
-.follow-container:hover{
+
+.follow-container:hover {
     cursor: pointer;
 }
 
 
 /* this is banner section */
-.banner-header{
+.banner-header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* justify-content: center; */
+
 }
-.banner-text-container{
+
+.banner-text-container {
     background-image: url(../images/Group\ 14.png);
-    height: 90vh;
-    
+    width: 901px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding-left: 244px;
+
 }
+
+.banner-img-section {
+    margin-left: 68px;
+    margin-right: 244px;
+}
+
+.banner-title1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.banner-title2 {
+    margin: 0px;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para{
+    margin-top: 24px;
+    margin-bottom: 41px;
+}
+
+.banner-dis {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-input{
+    display: flex;
+}
+.banner-button1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-button2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 24px;
+}
+
+
+
+
+
 
 
 
@@ -111,24 +181,27 @@ nav {
 /* this section is for mobile device */
 
 @media screen and (max-width:576px) {
-    header{
-        background: #FFF;
-        box-shadow:none;
+    header {
+        background: none;
+        box-shadow: none;
         margin-top: 103px;
         padding: 0px 20rem;
     }
+
     nav,
     .menu,
     .menu-container,
-    .main-section{
+    .main-section {
         flex-direction: column;
         text-align: center;
-    
+
     }
-    .menu{
+
+    .menu {
         gap: 50px;
     }
-    .menu-container{
+
+    .menu-container {
         gap: 32px;
     }
 }
