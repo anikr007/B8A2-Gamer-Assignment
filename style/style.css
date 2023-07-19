@@ -237,8 +237,76 @@ nav {
 }
 
 
+/* this is funny video section */
+.funny-video-container {
+    /* display: flex; */
+    margin-top: 120px;
+    margin-bottom: 120px;
+    /* padding: 48px, 240px, 50px; */
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.funny-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.funny-title-2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-dis {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.funny-video-box {
+    display: flex;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
 
 
+}
+
+.funny-video-box p {
+    color: #534C64;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    
+}
+
+.video-box {
+    width: 342px;
+    height: 400px;
+
+}
+/* .video-box:hover{
+    cursor: pointer;
+    bu
+} */
 
 
 
