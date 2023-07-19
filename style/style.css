@@ -298,14 +298,7 @@ nav {
 .video-box {
     width: 342px;
     height: 400px;
-
 }
-
-/* .video-box:hover{
-    cursor: pointer;
-    bu
-} */
-
 
 
 /* this is play instantly section */
@@ -468,46 +461,27 @@ nav {
 /* this section is for mobile device */
 
 @media screen and (max-width:576px) {
-    header {
-        background: none;
-        box-shadow: none;
-        margin-top: 103px;
-        padding: 0px 20rem;
-    }
-
-    nav,
+    .main-section,
     .menu,
     .menu-container,
-    .main-section,
-    .banner-header,
-    .funny-video-box,
-    .we-container {
+    .banner-header{
         flex-direction: column;
-        text-align: center;
-        width: 100%;
-
+        /* width: 100%; */
+    }
+    .header{
+        background: none;
+        box-shadow: none;
+        margin-bottom: 20px;
     }
 
-    .menu {
-        gap: 50px;
+    .menu-container{
+        gap: 25px;
+        margin-bottom: 30px;
+    
     }
-
-    .menu-container {
-        gap: 32px;
-    }
-
-    .banner-header {
+    .banner-header{
         flex-direction: column-reverse;
-        margin-top: 78px;
-        text-align: left;
-        margin: 9.375rem;
     }
-
-    .text-container {
-        margin-top: 35px;
-    }
-
-
 }
 
 
